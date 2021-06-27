@@ -1,0 +1,94 @@
+:root{
+    --vermelho:#E50914;
+    --preto:#141414;
+}
+*{
+    padding: 0;
+    outline: none;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'arial', Times, serif;
+}
+body{
+    background-color: var(--preto);
+    color: aliceblue;
+}
+nav{
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+}
+.link{
+    color: rgb(183, 186, 189);
+    align-items: center;
+    margin-right: 30px;
+}
+.link:hover{
+    color:rgb(255, 255, 255);
+}
+h1{
+    margin-left: 5%;
+    color:var(--vermelho);
+    font-size: 50px;
+    font-family:Arial;
+}
+header{
+    width: 100%;
+ 
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+/*corpo principal*/
+.filme-principal{
+
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)),url(../img/boys.jpg);
+    background-size:cover;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+.wrapper{
+    margin-left: 10px;
+    width: 80%;
+}
+.title{
+    margin-top: 15%;
+    font-size: 50px;
+}
+.descicao{
+    margin-bottom: 25px;
+}
+.acoes{
+    background-color: rgba(90,7,2,.50);
+    color: white;
+    padding: 13px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: .4s ease all;
+    font-size: 20px;
+}
+.acoes:hover{
+    background-color: white;
+    color: #E50914;
+}
+.acoes i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.box-filme{
+    width:100%;
+    height:100%;
+    display:block;
+}
+.carrosel-filmes{
+    margin-top:10px;
+}
